@@ -21,5 +21,19 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 15em;
-  text-shadow: -25px 25px 40px rgba(0, 0, 0, 0.5);
+  text-shadow: -25px 25px 40px rgba(0, 0, 0, 0.5),
+    -10px 10px 0 rgba(255, 255, 255, 0.5), -20px 20px 0 rgba(255, 255, 255, 0.2),
+    -30px 30px 0 rgba(255, 255, 255, 0.05);
+}
+.box h2 .zero {
+  position: relative;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(to bottom, #fff, #777);
+  border-radius: 50%;
+  margin: 0 15px;
+  box-shadow: -25px 25px 40px rgba(0, 0, 0, 0.5);
+}
+.box h2 .zero {
 }
